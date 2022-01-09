@@ -24,7 +24,6 @@
   </CombatExtended.AmmoSetDef>
 
 
-
 	<!-- ==================== Ammo ========================== -->
 
 	<ThingDef Class="CombatExtended.AmmoDef" Name="AmmoRifleMagnumBase" ParentName="SmallAmmoBase" Abstract="True">
@@ -41,7 +40,7 @@
 		<thingCategories>
 			<li>AmmoRifleMagnum</li>
 		</thingCategories>
-        <stackLimit>2000</stackLimit>
+        <stackLimit>400</stackLimit>
 	</ThingDef>
 
     <ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoRifleMagnumBase">		
@@ -106,8 +105,8 @@
 
 	<RecipeDef ParentName="AmmoRecipeBase">
 		<defName>MakeAmmo_RifleMagnum_FMJ</defName>
-		<label>make magnum rifle (FMJ) cartridge x200</label>
-		<description>Craft 200 magnum rifle (FMJ) cartridges.</description>
+		<label>make magnum rifle (FMJ) cartridge x80</label>
+		<description>Craft 80 magnum rifle (FMJ) cartridges.</description>
 		<jobString>Making magnum rifle (FMJ) cartridges.</jobString>
 		<ingredients>
 			<li>
@@ -116,7 +115,7 @@
 						<li>Steel</li>
 					</thingDefs>
 				</filter>
-				<count>20</count>
+				<count>10</count>
 			</li>
 		</ingredients>
 		<fixedIngredientFilter>
@@ -125,7 +124,7 @@
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
-			<Ammo_RifleMagnum_FMJ>200</Ammo_RifleMagnum_FMJ>
+			<Ammo_RifleMagnum_FMJ>80</Ammo_RifleMagnum_FMJ>
 		</products>
 		<workAmount>2000</workAmount>
 	</RecipeDef>
@@ -133,8 +132,8 @@
 
   <RecipeDef ParentName="AdvancedAmmoRecipeBase">
     <defName>MakeAmmo_RifleMagnum_Incendiary</defName>
-    <label>make magnum rifle (AP-I) cartridge x200</label>
-    <description>Craft 200 magnum rifle (AP-I) cartridges.</description>
+    <label>make magnum rifle (AP-I) cartridge x80</label>
+    <description>Craft 80 magnum rifle (AP-I) cartridges.</description>
     <jobString>Making magnum rifle (AP-I) cartridges.</jobString>
     <ingredients>
       <li>
@@ -143,7 +142,7 @@
             <li>Steel</li>
           </thingDefs>
         </filter>
-        <count>20</count>
+        <count>10</count>
       </li>
       <li>
         <filter>
@@ -151,7 +150,7 @@
             <li>Prometheum</li>
           </thingDefs>
         </filter>
-        <count>2</count>
+        <count>1</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -161,15 +160,15 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Ammo_RifleMagnum_Incendiary>200</Ammo_RifleMagnum_Incendiary>
+      <Ammo_RifleMagnum_Incendiary>80</Ammo_RifleMagnum_Incendiary>
     </products>
     <workAmount>2800</workAmount>
   </RecipeDef>
   
   <RecipeDef ParentName="AdvancedAmmoRecipeBase">
     <defName>MakeAmmo_RifleMagnum_HE</defName>
-    <label>make magnum rifle (HE) cartridge x200</label>
-    <description>Craft 200 magnum rifle (HE) cartridges.</description>
+    <label>make magnum rifle (HE) cartridge x80</label>
+    <description>Craft 80 magnum rifle (HE) cartridges.</description>
     <jobString>Making magnum rifle (HE) cartridges.</jobString>
     <ingredients>
       <li>
@@ -178,7 +177,7 @@
             <li>Steel</li>
           </thingDefs>
         </filter>
-        <count>20</count>
+        <count>10</count>
       </li>
       <li>
         <filter>
@@ -186,7 +185,7 @@
             <li>FSX</li>
           </thingDefs>
         </filter>
-        <count>4</count>
+        <count>2</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -196,15 +195,15 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Ammo_RifleMagnum_HE>200</Ammo_RifleMagnum_HE>
+      <Ammo_RifleMagnum_HE>80</Ammo_RifleMagnum_HE>
     </products>
     <workAmount>3600</workAmount>
   </RecipeDef>
   
   <RecipeDef ParentName="AdvancedAmmoRecipeBase">
     <defName>MakeAmmo_RifleMagnum_Sabot</defName>
-    <label>make magnum rifle (Sabot) cartridge x200</label>
-    <description>Craft 200 magnum rifle (Sabot) cartridges.</description>
+    <label>make magnum rifle (Sabot) cartridge x80</label>
+    <description>Craft 80 magnum rifle (Sabot) cartridges.</description>
     <jobString>Making magnum rifle (Sabot) cartridges.</jobString>
     <ingredients>
       <li>
@@ -213,7 +212,7 @@
             <li>Steel</li>
           </thingDefs>
         </filter>
-        <count>12</count>
+        <count>7</count>
       </li>
       <li>
         <filter>
@@ -221,7 +220,7 @@
             <li>Uranium</li>
           </thingDefs>
         </filter>
-        <count>2</count>
+        <count>1</count>
       </li>
       <li>
         <filter>
@@ -229,7 +228,7 @@
             <li>Chemfuel</li>
           </thingDefs>
         </filter>
-        <count>2</count>
+        <count>1</count>
       </li>		  
     </ingredients>
     <fixedIngredientFilter>
@@ -240,7 +239,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Ammo_RifleMagnum_Sabot>200</Ammo_RifleMagnum_Sabot>
+      <Ammo_RifleMagnum_Sabot>80</Ammo_RifleMagnum_Sabot>
     </products>
     <workAmount>2400</workAmount>
   </RecipeDef>

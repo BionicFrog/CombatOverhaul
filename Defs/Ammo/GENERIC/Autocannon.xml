@@ -38,7 +38,7 @@
     <thingCategories>
       <li>Ammo20x110mmHispano</li>
     </thingCategories>
-    <stackLimit>2000</stackLimit>
+    <stackLimit>400</stackLimit>
   </ThingDef>
 
   <ThingDef Class="CombatExtended.AmmoDef" ParentName="AmmoAutocannonShellBase">
@@ -103,8 +103,8 @@
 
   <RecipeDef ParentName="AmmoRecipeBase">
     <defName>MakeAmmo_Autocannon_FMJ</defName>
-    <label>make autocannon shell (FMJ) x200</label>
-    <description>Craft 200 autocannon shell (FMJ).</description>
+    <label>make autocannon shell (FMJ) x80</label>
+    <description>Craft 80 autocannon shell (FMJ).</description>
     <jobString>Making autocannon shell (FMJ).</jobString>
     <ingredients>
       <li>
@@ -113,7 +113,7 @@
             <li>Steel</li>
           </thingDefs>
         </filter>
-        <count>194</count>
+        <count>97</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -122,15 +122,15 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Ammo_Autocannon_FMJ>200</Ammo_Autocannon_FMJ>
+      <Ammo_Autocannon_FMJ>80</Ammo_Autocannon_FMJ>
     </products>
     <workAmount>10400</workAmount>
   </RecipeDef>
 
   <RecipeDef ParentName="AdvancedAmmoRecipeBase">
     <defName>MakeAmmo_Autocannon_Incendiary</defName>
-    <label>make autocannon shell (AP-I) x200</label>
-    <description>Craft 200 autocannon shell (AP-I).</description>
+    <label>make autocannon shell (AP-I) x80</label>
+    <description>Craft 80 autocannon shell (AP-I).</description>
     <jobString>Making autocannon shell (AP-I).</jobString>
     <ingredients>
       <li>
@@ -139,7 +139,7 @@
             <li>Steel</li>
           </thingDefs>
         </filter>
-        <count>104</count>
+        <count>52</count>
       </li>
       <li>
         <filter>
@@ -147,7 +147,7 @@
             <li>Prometheum</li>
           </thingDefs>
         </filter>
-        <count>13</count>
+        <count>7</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -157,15 +157,15 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Ammo_Autocannon_Incendiary>200</Ammo_Autocannon_Incendiary>
+      <Ammo_Autocannon_Incendiary>80</Ammo_Autocannon_Incendiary>
     </products>
     <workAmount>15600</workAmount>
   </RecipeDef>
 
   <RecipeDef ParentName="AdvancedAmmoRecipeBase">
     <defName>MakeAmmo_Autocannon_HE</defName>
-    <label>make autocannon shell (HE) x200</label>
-    <description>Craft 200 autocannon shell (HE).</description>
+    <label>make autocannon shell (HE) x80</label>
+    <description>Craft 80 autocannon shell (HE).</description>
     <jobString>Making autocannon shell (HE).</jobString>
     <ingredients>
       <li>
@@ -174,7 +174,7 @@
             <li>Steel</li>
           </thingDefs>
         </filter>
-        <count>104</count>
+        <count>52</count>
       </li>
       <li>
         <filter>
@@ -182,7 +182,7 @@
             <li>FSX</li>
           </thingDefs>
         </filter>
-        <count>23</count>
+        <count>11</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
@@ -192,7 +192,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Ammo_Autocannon_HE>200</Ammo_Autocannon_HE>
+      <Ammo_Autocannon_HE>80</Ammo_Autocannon_HE>
     </products>
     <workAmount>19600</workAmount>
   </RecipeDef>
@@ -200,8 +200,8 @@
 
   <RecipeDef ParentName="AdvancedAmmoRecipeBase">
     <defName>MakeAmmo_Autocannon_Sabot</defName>
-    <label>make autocannon shell (Sabot) x200</label>
-    <description>Craft 200 autocannon shell (Sabot).</description>
+    <label>make autocannon shell (Sabot) x80</label>
+    <description>Craft 80 autocannon shell (Sabot).</description>
     <jobString>Making autocannon shell (Sabot).</jobString>
     <ingredients>
       <li>
@@ -210,7 +210,7 @@
             <li>Steel</li>
           </thingDefs>
         </filter>
-        <count>54</count>
+        <count>27</count>
       </li>
       <li>
         <filter>
@@ -218,7 +218,7 @@
             <li>Uranium</li>
           </thingDefs>
         </filter>
-        <count>14</count>
+        <count>7</count>
       </li>
       <li>
         <filter>
@@ -226,7 +226,7 @@
             <li>Chemfuel</li>
           </thingDefs>
         </filter>
-        <count>14</count>
+        <count>7</count>
       </li>	  
     </ingredients>
     <fixedIngredientFilter>
@@ -237,7 +237,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Ammo_Autocannon_Sabot>200</Ammo_Autocannon_Sabot>
+      <Ammo_Autocannon_Sabot>80</Ammo_Autocannon_Sabot>
     </products>
     <workAmount>13800</workAmount>
   </RecipeDef>
